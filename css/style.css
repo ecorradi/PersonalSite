@@ -1,0 +1,61 @@
+* {
+	margin: 0;
+	padding: 0;
+}
+html {
+	background-color: black;
+	color: #fff;
+	font-family: "Open Sans", sans serif;
+	font-weight: 300;
+}
+.logo{
+	background: black url(../img/NYC.jpg) 20px top no-repeat;
+}
+h1 {
+	font-weight: 300;
+	font-size: 30px;
+}
+.constrain{
+	width: 960px;
+	margin: 0 140;
+}
+.content-loader{
+	width: 60%;
+	float: right;
+	min-height: 500px;
+	font-size: 14px;
+	margin: -60px 0 0 0;
+}
+nav {
+	width: 310px;
+	float: left;
+	font-size: 24px;
+}
+nav li {
+	list-style: none;
+}
+nav a {
+	color: #fff;
+	text-decoration: none;
+}
+a:hover {
+	text-decoration: underline;
+	color: red;
+}
+footer {
+	clear: both;
+	font-size: 10px;
+	padding: 5px;
+}
+footer p {
+	text-align: center;
+}
+.hide {
+	display: none;
+}
+p, h1 {
+	padding: 10px;
+}
+p {
+	width: 700px;
+}
